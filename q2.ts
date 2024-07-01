@@ -20,3 +20,5 @@ console.log(arrayStringify(c3));
 
 module.exports = arrayStringify;
 
+// ชื่อ: กรณ์ ศรีวัฒนะ
+// รหัส: 660610738

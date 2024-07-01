@@ -25,3 +25,6 @@ console.log(primeNumber(d2));
 console.log(primeNumber(d3));
 
 module.exports = primeNumber;
+
+// ชื่อ: กรณ์ ศรีวัฒนะ
+// รหัส: 660610738
