@@ -1,9 +1,13 @@
 function arrayStringify(a) {
-    for (var i = 0; i < a.length; i++) {
-        return a.toString();
+    if (a === null) {
+        return null;
     }
-    if (a.length === 0) {
-        return " ";
+    else {
+        var result = "";
+        for (var i = 0; i < a.length; i++) {
+            result += a[i].toString();
+        }
+        return result;
     }
 }
 var c1 = [1, 2, 3];
